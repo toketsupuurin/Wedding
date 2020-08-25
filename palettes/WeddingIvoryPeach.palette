@@ -1,0 +1,9 @@
+{
+  "code": "Wedding.palette.ivoryPeach",
+  "icon": "mods/Wedding/palettes/ivoryPeachicon.png",
+  "palette": "mods/Wedding/palettes/ivoryPeach.png",
+  "groups": [
+    "staxel.palette.group.Wedding",
+  ],
+  "priority": 50
+}

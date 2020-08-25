@@ -1,0 +1,27 @@
+{
+  "altModels": [
+    {
+      "bodyType": "staxel.bodyType.caithFemale",
+      "model": "mods/Wedding/FriendshipBraceletCaith.qb",
+    },
+    {
+      "bodyType": "staxel.bodyType.caithMale",
+      "model": "mods/Wedding/FriendshipBraceletCaith.qb",
+    },
+  ],
+  "bodyType": [
+    "staxel.bodyType.HumanoidFemale",
+	"staxel.bodyType.HumanoidMale"
+  ],
+  "code": "mods.Wedding.FriendshipBracelet",
+  "kind": "Hat",
+  "model": "mods/Wedding/FriendshipBracelet.qb",
+  "searchable": true,
+  "subcategory": "hat",
+  "categories": [
+    "friendship",
+	"bracelet"
+  ],
+  "searchable": false, 
+  "canBeEarntFromLuckyBox": false, 
+}

@@ -1,0 +1,39 @@
+{
+  "categories": [
+	"Wedding",
+	"bouquet",
+	"Pink",
+    "ball"
+  ],
+  "code": "mods.Wedding.WeddingBouquetPink",
+  "icon": "mods/Wedding/item/WeddingBouquetPink.qb",
+  "inHand": "mods/Wedding/item/WeddingBouquetPink.qb",
+  "inHandOffset": {
+    "x": 0.0,
+    "y": -0.25,
+    "z": -0.0625
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": -1.54
+  },
+  "isDockable": true,
+  "kind": "staxel.item.CraftItem",
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 3000,
+    "value": 5000
+  },
+  "searchable": true,
+  "throwable": {
+    "petWillFetch": true,
+    "throwStrength": 8.0
+  },
+  "usageOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

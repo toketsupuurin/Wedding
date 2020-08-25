@@ -1,0 +1,50 @@
+{
+  "altModels": [
+    {
+      "bodyType": "staxel.bodyType.HumanoidFemale",
+      "model": "mods/Wedding/TuxedoPantsFemale.qb",
+    },
+    {
+      "bodyType": "staxel.bodyType.HumanoidMale",
+      "model": "mods/Wedding/TuxedoPantsMale.qb",
+    },
+    {
+      "bodyType": "staxel.bodyType.caithFemale",
+      "model": "mods/Wedding/TuxedoPantsFemale.qb",
+    },
+    {
+      "bodyType": "staxel.bodyType.caithMale",
+      "model": "mods/Wedding/TuxedoPantsMale.qb",
+    },
+  ],
+  "bodyType": [
+    "Wedding.bodyType.Dummy",
+  ],
+  "code": "mods.Wedding.TuxedoPants",
+  "defaultPalette": "Wedding.palette.blackRed",
+  "paletteGroups": [
+    "staxel.palette.group.Wedding"
+  ],
+  "kind": "Trousers",
+  "model": "mods/Wedding/TuxedoPantsMale.qb",
+  "searchable": true,
+  "subcategory": "shorts",
+  "canBeGifted": false,
+  "categories": [
+    "fancy",
+	"wedding",
+	"tux",
+	"tuxedo",
+	"pants",
+	"trousers"
+  ],
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": true,
+    "sellPrice": 3000,
+    "value": 5000,
+    "appearsInCatalogue": true
+  },  
+  "searchable": true,
+  "canBeEarntFromLuckyBox": false, 
+}

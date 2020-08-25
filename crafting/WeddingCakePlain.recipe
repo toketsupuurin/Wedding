@@ -1,0 +1,37 @@
+{
+  "__inherits": "staxel/crafting/recipes/cookingRecipe.config",
+  "code": "mods.Wedding.crafting.recipe.cooking.cake.WeddingCakePlain",
+  "grouping": "desserts",
+  "ingredients": [
+    {
+      "code": "staxel.item.crafting.CakePlain",
+      "quantity": 3
+    },
+    {
+      "code": "staxel.item.crafting.CakeRods",
+      "quantity": 1
+    },
+	{
+      "code": "staxel.item.crops.Strawberries",
+      "quantity": 8
+    },
+  ],
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 25000,
+    "value": 50000
+  },
+  "result": {
+    "count": 1,
+    "item": {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.Wedding.WeddingCakePlain",
+      "quantity": 1
+    }
+  },
+  "searchable": true,
+  "steps": [
+    "mods.Wedding.crafting.reaction.CombineWeddingCakePlain",
+  ]
+}

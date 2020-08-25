@@ -1,0 +1,68 @@
+{
+  "altModels": [
+    {
+      "bodyType": "staxel.bodyType.HumanoidFemale",
+      "model": "mods/Wedding/TuxedoBoutonniere.qb",
+    },
+    {
+      "bodyType": "staxel.bodyType.HumanoidMale",
+      "model": "mods/Wedding/TuxedoBoutonniere.qb",
+    },
+    {
+      "bodyType": "staxel.bodyType.caithFemale",
+      "model": "mods/Wedding/TuxedoBoutonniereCaith.qb",
+    },
+    {
+      "bodyType": "staxel.bodyType.caithMale",
+      "model": "mods/Wedding/TuxedoBoutonniereCaith.qb",
+    },
+  ],
+  "hairReplacements": {
+    "default": "mods.Wedding.WeddingVeilStyled.Medium",
+    "specific": [
+      {
+        "code": "mods.Wedding.WeddingVeilStyled.Long",
+        "type": "long"
+      },
+      {
+        "code": "mods.Wedding.WeddingVeilStyled.Medium",
+        "type": "medium"
+      },
+      {
+        "code": "mods.Wedding.WeddingVeilStyled.Short",
+        "type": "short"
+      }
+    ]
+  },
+  "bodyType": [
+    "Wedding.bodyType.Dummy",
+  ],
+  "code": "mods.Wedding.TuxedoBoutonniereStyled",
+  "defaultPalette": "Wedding.palette.greyRed",
+  "paletteGroups": [
+    "staxel.palette.group.TuxedoBoutonniere"
+  ],
+  "kind": "Hat",
+  "model": "mods/Wedding/TuxedoBoutonniereIcon.qb",
+  "searchable": true,
+  "subcategory": "hat",
+  "canBeGifted": false,
+  "categories": [
+    "fancy",
+	"styled",
+    "wedding",
+	"boutonniere",
+	"flower",
+	"tux",
+	"tuxedo"
+  ],
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": true,
+    "sellPrice": 1500,
+    "value": 2500,
+    "appearsInCatalogue": true
+  },  
+  "searchable": true,
+  "canBeEarntFromLuckyBox": false, 
+}

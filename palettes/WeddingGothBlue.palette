@@ -1,0 +1,12 @@
+{
+  "code": "Wedding.palette.gothBlue",
+  "icon": "mods/Wedding/palettes/gothBlueicon.png",
+  "palette": "mods/Wedding/palettes/gothBlue.png",
+  "groups": [
+    "staxel.palette.group.Wedding",
+	"staxel.palette.group.EngagementFemaleRing",
+	"staxel.palette.group.WeddingShoes",
+	"staxel.palette.group.TuxedoBoutonniere"
+  ],
+  "priority": 10
+}

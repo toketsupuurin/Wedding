@@ -1,0 +1,54 @@
+{
+  "altModels": [
+    {
+      "bodyType": "staxel.bodyType.HumanoidFemale",
+      "model": "mods/Wedding/WeddingDressFemale.qb",
+    },
+    {
+      "bodyType": "staxel.bodyType.HumanoidMale",
+      "model": "mods/Wedding/WeddingDressMale.qb",
+    },
+    {
+      "bodyType": "staxel.bodyType.caithFemale",
+      "model": "mods/Wedding/WeddingDressFemaleCaith.qb",
+    },
+    {
+      "bodyType": "staxel.bodyType.caithMale",
+      "model": "mods/Wedding/WeddingDressMaleCaith.qb",
+    },
+  ],
+  "bodyType": [
+    "Wedding.bodyType.Dummy",
+  ],
+  "code": "mods.Wedding.WeddingGown",
+  "defaultPalette": "Wedding.palette.greyRed",
+  "paletteGroups": [
+    "staxel.palette.group.Wedding"
+  ],
+  "kind": "Shirt",
+  "model": "mods/Wedding/WeddingDressFemale.qb",
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": true,
+    "sellPrice": 15000,
+    "value": 25000,
+    "appearsInCatalogue": true
+  },
+  "searchable": true,
+  "canBeEarntFromLuckyBox": false, 
+  "subcategory": "dress",
+  "categories": [
+    "fancy",
+	"wedding",
+	"dress",
+	"gown",
+  ],
+  "hidesLayers": [
+    {
+	  "layers": [
+		"Torso"
+	  ],
+	  "source": "basemodel"
+	}
+  ],
+}

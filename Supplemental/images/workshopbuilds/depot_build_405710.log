@@ -1,0 +1,12 @@
+[2020-08-25 18:50:29]: Building file listing for depot 405710 ...
+[2020-08-25 18:50:29]: Found 1 files for mapping: C:\Users\Toketsu_Puurin\AppData\Local\Temp\6c4400f74d644fa0917e7bd338c3e7b4 * -> .
+[2020-08-25 18:50:29]: Found 1 files (0 MB) for depot 405710
+[2020-08-25 18:50:29]: Building depot 405710, baseline manifest 8860617243055377415 (1 files)
+[2020-08-25 18:50:30]: Found 1 chunks ( 63 used previously ) for depot 405710, took 0 minutes, 0 seconds
+
+[2020-08-25 18:50:30]: Changes to baseline manifest 8860617243055377415 :
+[2020-08-25 18:50:30]: Changed: "Wedding.sxlmod" 413 kB size, 413 kB changed 
+[2020-08-25 18:50:30]: Summary: 0 files added, 1 files changed, 0 files removed
+[2020-08-25 18:50:30]: Uploading new manifest to 208.64.201.182:80 (handle 22678681628255310, 435 bytes).
+[2020-08-25 18:50:30]: Uploading 1 out of 1 missing chunks.
+[2020-08-25 18:50:32]: Success! New manifestID 56681397829739253 created and 1 new chunks uploaded.

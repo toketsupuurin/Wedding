@@ -1,0 +1,40 @@
+{
+  "categories": [
+	"Wedding",
+	"bouquet",
+	"Goth",
+	"Green",
+    "ball"
+  ],
+  "code": "mods.Wedding.WeddingBouquetGothGreen",
+  "icon": "mods/Wedding/item/WeddingBouquetGothGreen.qb",
+  "inHand": "mods/Wedding/item/WeddingBouquetGothGreen.qb",
+  "inHandOffset": {
+    "x": 0.0,
+    "y": -0.25,
+    "z": -0.0625
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": -1.54
+  },
+  "isDockable": true,
+  "kind": "staxel.item.CraftItem",
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 3000,
+    "value": 5000
+  },
+  "searchable": true,
+  "throwable": {
+    "petWillFetch": true,
+    "throwStrength": 8.0
+  },
+  "usageOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

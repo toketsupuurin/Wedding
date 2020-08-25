@@ -1,0 +1,31 @@
+{
+  "__inherits": "staxel/tileObject/base.config",
+  "categories": [
+    "patisserie",
+    "decoration",
+    "cake",
+    "chocolate",
+    "black",
+    "wedding"
+  ],
+  "code": "mods.Wedding.WeddingCakeChocolate",
+  "compound": {
+    "size": {
+      "x": 2,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+	"appearsInCatalogue": false,
+    "buyable": false,
+    "sellPrice": 8784,
+    "value": 15783
+  },
+  "randomizePosition": false,
+  "searchable": true,
+  "canBeEarntFromLuckyBox": false,  
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/Wedding/item/WeddingCakeChocolate.qb"
+}

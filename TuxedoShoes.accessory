@@ -1,0 +1,33 @@
+{
+  "bodyType": [
+    "staxel.bodyType.HumanoidMale",
+    "staxel.bodyType.HumanoidFemale",
+	"staxel.bodyType.caithFemale",
+	"staxel.bodyType.caithMale",
+  ],
+  "code": "mods.Wedding.TuxedoShoes",
+  "defaultPalette": "Wedding.palette.blackRed",
+  "paletteGroups": [
+    "staxel.palette.group.WeddingShoes"
+  ],
+  "kind": "Shoes",
+  "model": "mods/Wedding/TuxedoShoes.qb",
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": true,
+    "sellPrice": 1500,
+    "value": 2500,
+    "appearsInCatalogue": true
+  },
+  "searchable": true,
+  "canBeEarntFromLuckyBox": false, 
+  "subcategory": "trainers",
+  "categories": [
+    "fancy",
+    "wedding",
+	"tux",
+	"tuxedo",
+	"shoes",
+	"oxfords"
+  ]
+}

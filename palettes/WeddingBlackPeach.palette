@@ -1,0 +1,11 @@
+{
+  "code": "Wedding.palette.blackPeach",
+  "icon": "mods/Wedding/palettes/blackPeachicon.png",
+  "palette": "mods/Wedding/palettes/blackPeach.png",
+  "groups": [
+    "staxel.palette.group.Wedding",
+	"staxel.palette.group.EngagementFemaleRing",
+	"staxel.palette.group.TuxedoBoutonniere"
+  ],
+  "priority": 10
+}

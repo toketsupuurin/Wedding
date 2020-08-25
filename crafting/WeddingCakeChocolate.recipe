@@ -1,0 +1,41 @@
+{
+  "__inherits": "staxel/crafting/recipes/cookingRecipe.config",
+  "code": "mods.Wedding.crafting.recipe.cooking.cake.WeddingCakeChocolate",
+  "grouping": "desserts",
+  "ingredients": [
+    {
+      "code": "staxel.item.crafting.CakeChocolate",
+      "quantity": 3
+    },
+    {
+      "code": "staxel.item.crafting.CakeRods",
+      "quantity": 1
+    },
+	{
+      "code": "aaa.mods.mb.BasicStaples.item.crafting.staples.RoyalIcing",
+      "quantity": 1
+    },
+	{
+      "code": "staxel.item.crafting.VialMixed",
+      "quantity": 1
+    },
+  ],
+  "pricing": {
+    "catalogueUnlockedFromStart": true,
+    "buyable": true,
+    "sellPrice": 25000,
+    "value": 50000
+  },
+  "result": {
+    "count": 1,
+    "item": {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.Wedding.WeddingCakeChocolate",
+      "quantity": 1
+    }
+  },
+  "searchable": true,
+  "steps": [
+    "mods.Wedding.crafting.reaction.CombineWeddingCakeChocolate",
+  ]
+}

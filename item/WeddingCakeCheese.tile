@@ -1,0 +1,31 @@
+{
+  "__inherits": "staxel/tileObject/base.config",
+  "categories": [
+    "patisserie",
+    "decoration",
+    "cake",
+    "Cheese",
+    "white",
+    "wedding"
+  ],
+  "code": "mods.Wedding.WeddingCakeCheese",
+  "compound": {
+    "size": {
+      "x": 2,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+	"appearsInCatalogue": false,
+    "buyable": false,
+    "sellPrice": 16851,
+    "value": 28089
+  },
+  "randomizePosition": false,
+  "searchable": true,
+  "canBeEarntFromLuckyBox": false,  
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/Wedding/item/WeddingCakeCheese.qb"
+}

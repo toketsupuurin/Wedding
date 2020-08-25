@@ -1,0 +1,66 @@
+{
+  "altModels": [
+    {
+      "bodyType": "staxel.bodyType.HumanoidFemale",
+      "model": "mods/Wedding/WeddingVeil.qb",
+    },
+    {
+      "bodyType": "staxel.bodyType.HumanoidMale",
+      "model": "mods/Wedding/WeddingVeil.qb",
+    },
+    {
+      "bodyType": "staxel.bodyType.caithFemale",
+      "model": "mods/Wedding/WeddingVeilCaith.qb",
+    },
+    {
+      "bodyType": "staxel.bodyType.caithMale",
+      "model": "mods/Wedding/WeddingVeilCaith.qb",
+    },
+  ],
+  "hairReplacements": {
+    "default": "mods.Wedding.WeddingVeilStyled.Medium",
+    "specific": [
+      {
+        "code": "mods.Wedding.WeddingVeilStyled.Long",
+        "type": "long"
+      },
+      {
+        "code": "mods.Wedding.WeddingVeilStyled.Medium",
+        "type": "medium"
+      },
+      {
+        "code": "mods.Wedding.WeddingVeilStyled.Short",
+        "type": "short"
+      }
+    ]
+  },
+  "bodyType": [
+    "Wedding.bodyType.Dummy",
+  ],
+  "code": "mods.Wedding.WeddingVeilStyled",
+  "defaultPalette": "Wedding.palette.greyRed",
+  "paletteGroups": [
+    "staxel.palette.group.Wedding"
+  ],
+  "kind": "Hat",
+  "model": "mods/Wedding/WeddingVeilIcon.qb",
+  "searchable": true,
+  "subcategory": "hat",
+  "canBeGifted": false,
+  "categories": [
+    "fancy",
+    "wedding",
+	"hat",
+	"veil",
+	"styled",
+  ],
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": true,
+    "sellPrice": 1500,
+    "value": 2500,
+    "appearsInCatalogue": true
+  },  
+  "searchable": true,
+  "canBeEarntFromLuckyBox": false, 
+}

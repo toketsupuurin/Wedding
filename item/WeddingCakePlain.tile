@@ -1,0 +1,31 @@
+{
+  "__inherits": "staxel/tileObject/base.config",
+  "categories": [
+    "patisserie",
+    "decoration",
+    "cake",
+    "plain",
+    "yellow",
+    "wedding"
+  ],
+  "code": "mods.Wedding.WeddingCakePlain",
+  "compound": {
+    "size": {
+      "x": 2,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+	"appearsInCatalogue": false,
+    "buyable": false,
+    "sellPrice": 13818,
+    "value": 24027
+  },
+  "randomizePosition": false,
+  "searchable": true,
+  "canBeEarntFromLuckyBox": false,  
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/Wedding/item/WeddingCakePlain.qb"
+}

@@ -1,0 +1,45 @@
+{
+  "altModels": [
+    {
+      "bodyType": "staxel.bodyType.HumanoidFemale",
+      "model": "mods/Wedding/EngagementRingFemale.qb",
+    },
+    {
+      "bodyType": "staxel.bodyType.HumanoidMale",
+      "model": "mods/Wedding/EngagementRingFemale.qb",
+    },
+    {
+      "bodyType": "staxel.bodyType.caithFemale",
+      "model": "mods/Wedding/EngagementRingFemaleCaith.qb",
+    },
+    {
+      "bodyType": "staxel.bodyType.caithMale",
+      "model": "mods/Wedding/EngagementRingFemaleCaith.qb",
+    },
+  ],
+  "bodyType": [
+    "Wedding.bodyType.Dummy"
+  ],
+  "code": "mods.Wedding.EngagementRing",
+  "defaultPalette": "Wedding.palette.greyRed",
+  "paletteGroups": [
+    "staxel.palette.group.EngagementFemaleRing"
+  ],
+  "kind": "Hat",
+  "model": "mods/Wedding/EngagementRingFemaleIcon.qb",
+  "searchable": true,
+  "subcategory": "hat",
+  "categories": [
+    "fancy",
+    "wedding"
+  ],
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": true,
+    "sellPrice": 1500,
+    "value": 2500,
+    "appearsInCatalogue": true
+  },  
+  "searchable": true,
+  "canBeEarntFromLuckyBox": false, 
+}

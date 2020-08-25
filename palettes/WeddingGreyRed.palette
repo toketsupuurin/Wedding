@@ -1,0 +1,11 @@
+{
+  "code": "Wedding.palette.greyRed",
+  "icon": "mods/Wedding/palettes/greyRedicon.png",
+  "palette": "mods/Wedding/palettes/greyRed.png",
+  "groups": [
+    "staxel.palette.group.Wedding",
+	"staxel.palette.group.WeddingFemaleRing",
+	"staxel.palette.group.WeddingShoes"
+  ],
+  "priority": 50
+}

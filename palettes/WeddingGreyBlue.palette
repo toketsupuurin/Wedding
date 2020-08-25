@@ -1,0 +1,9 @@
+{
+  "code": "Wedding.palette.greyBlue",
+  "icon": "mods/Wedding/palettes/greyBlueicon.png",
+  "palette": "mods/Wedding/palettes/greyBlue.png",
+  "groups": [
+    "staxel.palette.group.Wedding",
+  ],
+  "priority": 50
+}

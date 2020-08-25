@@ -1,0 +1,48 @@
+{
+  "altModels": [
+    {
+      "bodyType": "staxel.bodyType.HumanoidFemale",
+      "model": "mods/Wedding/TuxedoFemale.qb",
+    },
+    {
+      "bodyType": "staxel.bodyType.HumanoidMale",
+      "model": "mods/Wedding/TuxedoMale.qb",
+    },
+    {
+      "bodyType": "staxel.bodyType.caithFemale",
+      "model": "mods/Wedding/TuxedoFemale.qb",
+    },
+    {
+      "bodyType": "staxel.bodyType.caithMale",
+      "model": "mods/Wedding/TuxedoMale.qb",
+    },
+  ],
+  "bodyType": [
+    "Wedding.bodyType.Dummy",
+  ],
+  "code": "mods.Wedding.TuxedoCoat",
+  "defaultPalette": "Wedding.palette.blackRed",
+  "paletteGroups": [
+    "staxel.palette.group.Wedding"
+  ],
+  "kind": "Shirt",
+  "model": "mods/Wedding/TuxedoMale.qb",
+  "pricing": {
+    "buyable": true,
+    "catalogueUnlockedFromStart": true,
+    "sellPrice": 15000,
+    "value": 25000,
+    "appearsInCatalogue": true
+  },
+  "searchable": true,
+  "canBeEarntFromLuckyBox": false, 
+  "subcategory": "shirt",
+  "categories": [
+    "fancy",
+    "wedding",
+	"tux",
+	"tuxedo",
+	"coat",
+	"shirt"
+  ]
+}

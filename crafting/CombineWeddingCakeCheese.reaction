@@ -1,0 +1,29 @@
+{
+  "__inherits": "staxel/crafting/reactions/crafting/craft.config",
+  "code": "mods.Wedding.crafting.reaction.CombineWeddingCakeCheese",
+  "recipeStep": "combine",
+  "tools": [
+  ],
+  "reagents": [
+    {
+      "code": "staxel.item.crafting.CakeCheese",
+      "quantity": 3
+    },
+    {
+      "code": "staxel.item.crafting.CakeRods",
+      "quantity": 1
+    },
+	{
+      "code": "staxel.item.crafting.JamStrawberry",
+      "quantity": 3
+    },
+  ],
+  "results": [
+    {
+      "kind": "staxel.item.Placer",
+      "tile": "mods.Wedding.WeddingCakeCheese",
+      "quantity": 1
+    }
+  ],
+  "effectTrigger": "staxel.effect.crafting.Combine"
+}

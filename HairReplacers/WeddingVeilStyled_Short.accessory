@@ -1,0 +1,33 @@
+{
+  "altModels": [
+    {
+      "bodyType": "staxel.bodyType.caithFemale",
+      "model": "mods/Wedding/HairReplacers/WeddingVeilStyledCaith_Short.qb"
+    },
+    {
+      "bodyType": "staxel.bodyType.caithMale",
+      "model": "mods/Wedding/HairReplacers/WeddingVeilStyledCaith_Short.qb"
+    }
+  ],
+  "bodyType": [
+    "staxel.bodyType.HumanoidMale",
+	"staxel.bodyType.HumanoidFemale",
+  ],
+  "code": "mods.Wedding.WeddingVeilStyled.Short",
+  "defaultPalette": "staxel.palette.grey",
+  "kind": "Hair",
+  "model": "mods/Wedding/HairReplacers/WeddingVeilStyled_Short.qb",
+  "paletteGroups": [
+    "staxel.palette.group.HairColours"
+  ],
+  "pricing": {
+    "buyable": false,
+	"appearsInCatalogue": false,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 1,
+    "value": 2
+  },
+  "searchable": false,
+  "canBeEarntFromLuckyBox": false,
+  "availableInChargen": false,
+}
