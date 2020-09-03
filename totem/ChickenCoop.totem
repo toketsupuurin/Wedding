@@ -1,0 +1,34 @@
+{
+  "code": "staxel.totem.ChickenCoop",
+  "categories": [],
+  "region": {
+    "x": 4,
+    "y": 3,
+    "z": 4
+  },
+  "centreOffset": {
+    "x": 0,
+    "y": 2,
+    "z": -4
+  },
+  "tiers": 1,
+  "requiredCategories": {
+    "tier0": [
+      {
+        "category": "chickenFeedingArea",
+        "count": 1
+      }
+    ]
+  },
+  "requiredObjects": {
+    "tier0": [
+      {
+        "code": "staxel.tileObject.animalFurniture.ChickenCoop",
+        "count": 1
+      }
+    ]
+  },
+  "requiresRoof": false,
+  "notTown": true,
+  "countTilesInDocks": false
+}

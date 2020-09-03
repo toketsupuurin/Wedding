@@ -1,0 +1,67 @@
+{
+  "code": "staxel.totem.festival.SnowdustShrine",
+  "region": {
+    "x": 22,
+    "y": 5,
+    "z": 22
+  },
+  "centreOffset": {
+    "x": 0,
+    "y": 4,
+    "z": -23
+  },
+  "tiers": 1,
+  "requiredObjects": {
+    "tier0": [
+      {
+        "code": "staxel.tileObject.festival.NekoShrine",
+        "count": 1
+      },
+      {
+        "code": "staxel.tileObject.serverVillage.exterior.MarketStallBlue",
+        "count": 1
+      },
+      {
+        "code": "staxel.tileObject.serverVillage.exterior.MarketStallPink",
+        "count": 2
+      }
+    ]
+  },
+  "requiredCategories": {
+    "tier0": [
+      {
+        "category": "counter",
+        "count": 17
+      },
+      {
+        "category": "well",
+        "count": 2
+      }
+    ]
+  },
+  "shopGoods": {
+    "tier0": [
+      {
+        "dock": "staxel.tileObject.serverVillage.exterior.MarketStallBlue",
+        "treasures": [
+          {
+            "code": "staxel.treasure.festival.SnowdustFaire",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "dock": "staxel.tileObject.serverVillage.exterior.MarketStallPink",
+        "treasures": [
+          {
+            "code": "staxel.treasure.festival.SnowdustFaire",
+            "count": 2
+          }
+        ]
+      }
+    ]
+  },
+  "requiresRoof": false,
+  "notTown": true,
+  "countTilesInDocks": false
+}

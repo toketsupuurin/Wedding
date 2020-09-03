@@ -1,0 +1,27 @@
+{
+  "code": "staxel.totem.Farmhouse",
+  "categories": [],
+  "region": {
+    "x": 10,
+    "y": 5,
+    "z": 10
+  },
+  "centreOffset": {
+    "x": 2,
+    "y": 4,
+    "z": -10
+  },
+  "tiers": 1,
+  "requiredCategories": {
+    "tier0": [
+      {
+        "category": "bed",
+        "count": 1
+      }
+    ]
+  },
+  "requiresRoof": true,
+  "isPlayerHome": true,
+  "notTown": true,
+  "countTilesInDocks": false
+}

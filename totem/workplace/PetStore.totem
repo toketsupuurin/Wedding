@@ -1,0 +1,67 @@
+{
+  "code": "staxel.totem.workplace.PetStore",
+  "region": {
+    "x": 7,
+    "y": 6,
+    "z": 7
+  },
+  "centreOffset": {
+    "x": -7,
+    "y": 5,
+    "z": 0
+  },
+  "tiers": 1,
+  "requiredCategories": {
+    "tier0": [
+      {
+        "category": "countertop",
+        "count": 2
+      },
+      {
+        "category": "stool",
+        "count": 1
+      },
+	  {
+        "category": "playpen",
+        "count": 1,
+        "requirePlaced": true
+      }
+	]
+  },
+  "requiredObjects": {
+    "tier0": [
+      {
+        "code": "staxel.tileObject.shop.CashRegister",
+        "count": 1
+      },
+      {
+        "code": "staxel.tileObject.shop.PetStoreShelf",
+        "count": 3,
+        "requirePlaced": true
+      }
+    ]
+  },
+  "shopGoods": {
+    "tier0": [
+      {
+        "dock": "staxel.tileObject.shop.PetStoreShelf",
+        "treasures": [
+
+          {
+            "code": "staxel.treasure.storeShelf.petStoreAnimals",
+            "count": 1
+          },
+		      {
+            "code": "staxel.treasure.storeShelf.animals",
+            "count": 1
+          },
+          {
+            "code": "staxel.treasure.storeShelf.petStoreItems",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  "requiresRoof": true
+}

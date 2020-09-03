@@ -1,0 +1,67 @@
+{
+  "code": "staxel.totem.AirshipLanding",
+  "areaProtection": true,
+  "categories": [],
+  "region": {
+    "x": 9,
+    "y": 4,
+    "z": 5
+  },
+  "centreOffset": {
+    "x": 1,
+    "y": 3,
+    "z": -7
+  },
+  "tiers": 3,
+  "requiredCategories": {
+    "tier0": [
+      {
+        "category": "bench",
+        "count": 2
+      },
+      {
+        "category": "rope",
+        "count": 10
+      }
+    ],
+    "tier1": [
+      {
+        "category": "barrel",
+        "count": 3
+      },
+      {
+        "category": "crate",
+        "count": 14
+      },
+      {
+        "category": "rope",
+        "count": 10
+      }
+    ],
+    "tier2": [
+      {
+        "category": "bench",
+        "count": 2
+      }
+    ]
+  },
+  "requiredObjects": {
+    "tier0": [
+      {
+        "code": "staxel.tileObject.decorations.Corkboard",
+        "count": 1
+      }
+    ],
+    "tier2": [
+      {
+        "code": "staxel.tileObject.airship.WeatherVane",
+        "count": 1
+      },
+      {
+        "code": "staxel.tileObject.buildingStore.PalletStack",
+        "count": 2
+      }
+    ]
+  },
+  "requiresRoof": false
+}

@@ -1,0 +1,36 @@
+{
+  "code": "staxel.totem.workplace.MyahLure",
+  "region": {
+    "x": 8,
+    "y": 3,
+    "z": 8
+  },
+  "centreOffset": {
+    "x": 0,
+    "y": 1,
+    "z": 0
+  },
+  "tiers": 1,
+  "requiredObjects": {
+    "tier0": [
+      {
+        "code": "staxel.tile.water.PondWater",
+        "count": 10
+      },
+      {
+        "code": "staxel.tileObject.quest.Riah.ButterflyDreamcatcher",
+        "count": 1
+      },
+      {
+        "code": "staxel.tileObject.quest.Riah.IncenseLure",
+        "count": 1
+      },
+      {
+        "code": "staxel.tileObject.quest.Riah.MermaidFin",
+        "count": 1
+      }
+    ]
+  },
+  "requiresRoof": false,
+  "notTown": true
+}

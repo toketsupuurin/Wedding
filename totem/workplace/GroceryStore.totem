@@ -1,0 +1,159 @@
+{
+  "code": "staxel.totem.workplace.GroceryStore",
+  "areaProtection": true,
+  "region": {
+    "x": 10,
+    "y": 3,
+    "z": 12
+  },
+  "centreOffset": {
+    "x": 0,
+    "y": 2,
+    "z": -12
+  },
+  "tiers": 3,
+  "requiredCategories": {
+    "tier0": [
+      {
+        "category": "counter",
+        "count": 3
+      },
+      {
+        "category": "awning",
+        "count": 2
+      },
+      {
+        "category": "chair",
+        "count": 1
+      }
+    ],
+    "tier1": [
+      {
+        "category": "counter",
+        "count": 3
+      },
+      {
+        "category": "box",
+        "count": 15
+      },
+      {
+        "category": "bin",
+        "count": 2
+      }
+    ]
+  },
+  "requiredObjects": {
+    "tier0": [
+      {
+        "code": "staxel.tileObject.shop.CashRegister",
+        "count": 1
+      },
+      {
+        "code": "staxel.tileObject.shop.ShopShelfMerchant",
+        "count": 15,
+        "requirePlaced": true
+      }
+    ],
+    "tier1": [
+      {
+        "code": "staxel.tileObject.serverVillage.Bookshelf",
+        "count": 3
+      },
+      {
+        "code": "staxel.tileObject.shop.DisplayCaseLeft",
+        "count": 2
+      },
+      {
+        "code": "staxel.tileObject.shop.DisplayCaseRight",
+        "count": 2
+      },
+      {
+        "code": "staxel.tileObject.shop.DisplayCaseStandalone",
+        "count": 3
+      }
+    ],
+    "tier2": [
+      {
+        "code": "staxel.tileObject.postbox.HandlingPost",
+        "count": 1,
+        "questGate": "staxel.mainQuest.Leif.Liked",
+        "requirePlaced": true
+      },
+      {
+        "code": "staxel.tileObject.postbox.PostCounter",
+        "count": 1,
+        "questGate": "staxel.mainQuest.Leif.Liked",
+        "requirePlaced": true
+      },
+      {
+        "code": "staxel.tileObject.postbox.PostOfficePostbox",
+        "count": 1,
+        "questGate": "staxel.mainQuest.Leif.Liked",
+        "requirePlaced": true
+      }
+    ]
+  },
+  "shopGoods": {
+    "tier0": [
+      {
+        "dock": "staxel.tileObject.shop.ShopShelfMerchant",
+        "treasures": [
+          {
+            "code": "staxel.treasure.storeShelf.animals",
+            "count": 1
+          },
+		      {
+            "code": "staxel.treasure.storeShelf.addModItemsToThisOne",
+            "count": 1
+          },
+          {
+            "code": "staxel.treasure.storeShelf.farm",
+            "count": 1
+          },
+          {
+            "code": "staxel.treasure.storeShelf.shipping",
+            "count": 1
+          },
+          {
+            "code": "staxel.treasure.storeShelf.furniture",
+            "count": 2
+          },
+          {
+            "code": "staxel.treasure.storeShelf.furnitures",
+            "count": 1
+          },
+          {
+            "code": "staxel.treasure.storeShelf.ingredients",
+            "count": 1
+          },
+          {
+            "code": "staxel.treasure.storeShelf.Misc",
+            "count": 1
+          },
+          {
+            "code": "staxel.treasure.storeShelf.Decorations",
+            "count": 1
+          },
+          {
+            "code": "staxel.treasure.storeShelf.Decorations2",
+            "count": 1
+          },
+          {
+            "code": "staxel.treasure.storeShelf.produce",
+            "count": 1
+          },
+          {
+            "code": "staxel.treasure.storeShelf.recipes",
+            "count": 1
+          },
+          {
+            "code": "staxel.treasure.storeShelf.seeds",
+            "count": 2
+          }
+        ]
+      }
+    ]
+  },
+  "requiresRoof": true,
+  "showOnMap": true
+}

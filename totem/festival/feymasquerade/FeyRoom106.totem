@@ -1,0 +1,33 @@
+{
+  "code": "staxel.totem.festival.feymasquerade.FeyRoom106",
+  "region": {
+    "x": 6,
+    "y": 3,
+    "z": 5
+  },
+  "centreOffset": {
+    "x": -6,
+    "y": 2,
+    "z": 0
+  },
+  "tiers": 1,
+  "requiresRoof": true,
+  "requiredObjects": {
+    "tier0": [
+      {
+        "code": "staxel.tileObject.festival.feymasquerade.RoseLamp",
+        "count": 1
+      },
+	  {
+        "code": "staxel.tileObject.festival.feymasquerade.DaisyArmChair",
+        "count": 4
+      },
+	  {
+        "code": "staxel.tileObject.festival.feymasquerade.LargeDaisyTable",
+        "count": 1
+      }
+    ]
+  },
+  "notTown": true,
+  "countTilesInDocks": false
+}

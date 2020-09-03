@@ -1,0 +1,39 @@
+{
+  "code": "staxel.totem.SmallFestivalGrounds",
+  "categories": [],
+  "region": {
+    "x": 5,
+    "y": 3,
+    "z": 5
+  },
+  "centreOffset": {
+    "x": 6,
+    "y": 2,
+    "z": 0
+  },
+  "tiers": 1,
+  "requiredCategories": {
+    "tier0": [
+      {
+        "category": "barrel",
+        "count": 3
+      },
+      {
+        "category": "crate",
+        "count": 4
+      },
+      {
+        "category": "fence",
+        "count": 13        
+      },
+      {
+        "category": "stall",
+        "count": 1        
+      }
+    ]
+  },
+  "requiresRoof": false,
+  "isFestivalTotem": true,
+  "dontOverlapAny": true,
+  "notTown": true
+}

@@ -1,0 +1,66 @@
+{
+  "code": "staxel.totem.workplace.Museum",
+  "region": {
+    "x": 10,
+    "y": 5,
+    "z": 12
+  },
+  "centreOffset": {
+    "x": -7,
+    "y": 3,
+    "z": -12
+  },
+  "tiers": 3,
+  "requiredCategories": {
+    "tier0": [
+      {
+        "category": "clock",
+        "count": 2
+      },
+      {
+        "category": "largeFishDisplay",
+        "count": 2
+      },
+      {
+        "category": "smallFishDisplay",
+        "count": 2
+      },
+      {
+        "category": "smallBugDisplay",
+        "count": 2
+      },
+    ],
+    "tier1": [
+      {
+        "category": "fossil",
+        "count": 5
+      },
+      {
+        "category": "painting",
+        "count": 2
+      },
+      {
+        "category": "largeFishDisplay",
+        "count": 1
+      },
+      {
+        "category": "smallFishDisplay",
+        "count": 1
+      },
+      {
+        "category": "smallBugDisplay",
+        "count": 1
+      }
+    ]
+  },
+  "requiredObjects": {
+    "tier2": [
+      {
+        "code": "staxel.tileObject.museum.painting.RainbowButterfly",
+        "count": 1,
+        "questGate": "staxel.mainQuest.Vorlen.Liked"
+      },
+    ]
+  },
+  "requiresRoof": true
+}

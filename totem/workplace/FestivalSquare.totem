@@ -1,0 +1,34 @@
+{
+  "code": "staxel.totem.workplace.FestivalSquare",
+  "region": {
+    "x": 25,
+    "y": 29,
+    "z": 25
+  },
+  "centreOffset": {
+    "x": 0,
+    "y": 28,
+    "z": -26
+  },
+  "tiers": 1,
+  "requiredBuildings": {
+    "tier0": [
+      {
+        "code": "staxel.totem.workplace.TownHall",
+        "tier": 0
+      }
+    ]
+  },
+  "requiresRoof": false,
+  "isFestivalTotem": true,
+  "warningNotification": "staxel.notifications.totem.FestivalTotem",
+  "scanForUnbreakables": true,
+  "version": 1,
+  "tilesToIgnore": [
+    "staxel.tileObject.portalFest.LumberIslandPortal",
+    "staxel.tileObject.portalFest.FairyIslandPortal",
+    "staxel.tileObject.mineIsland.Entrance",
+    "staxel.tileObject.tropical.TropicalIslandEntrance",
+  ],
+  "countTilesInDocks": false
+}

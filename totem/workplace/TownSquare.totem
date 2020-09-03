@@ -1,0 +1,34 @@
+{
+  "code": "staxel.totem.workplace.TownSquare",
+  "region": {
+    "x": 15,
+    "y": 5,
+    "z": 15
+  },
+  "centreOffset": {
+    "x": 0,
+    "y": 4,
+    "z": -16
+  },
+  "tiers": 1,
+  "requiredBuildings": {
+    "tier0": [
+      {
+        "code": "staxel.totem.workplace.TownHall",
+        "tier": 0
+      }
+    ]
+  },
+  "requiredCategories": {
+    "tier0": [
+      {
+        "category": "fountain",
+        "count": 1
+      }
+    ]
+  },
+  "requiresRoof": false,
+  "isFestivalTotem": true,
+  "warningNotification": "staxel.notifications.totem.FestivalTotem",
+  "countTilesInDocks": false
+}
