@@ -1,7 +1,7 @@
 Toketsu Puurin presents:
 
 Weddings (&  Friendship)
-Version 1.0
+Version 1.02
 
 Requirements: Basic Staples
 
@@ -54,6 +54,12 @@ Each of these has two different versions. The one with a comb will change your h
 ==========
 
 Versions
+
+1.02
+	- Fixed a few naming conflicts.
+
+1.01
+	- New improvements in dress technology!
 
 1.0
 	- Added wedding clothes.

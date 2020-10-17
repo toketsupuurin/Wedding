@@ -1,0 +1,20 @@
+{
+  "__inherits": "staxel/crafting/reactions/crafting/craft.config",
+  "code": "mods.Wedding.crafting.reaction.CombineFriendshipBracelet",
+  "recipeStep": "combine",
+  "tools": [
+  ],
+  "reagents": [
+    {
+	  "code": "staxel.item.quest.FriendshipBracelet",
+    },
+  ],
+  "results": [
+    {
+	  "kind": "staxel.item.Clothing",
+      "accessory": "mods.Wedding.FriendshipBracelet",
+      "quantity": 1
+    }
+  ],
+  "effectTrigger": "staxel.effect.crafting.Combine"
+}
